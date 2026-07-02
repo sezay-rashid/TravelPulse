@@ -4,11 +4,11 @@
 
 TravelPulse is an end-to-end hotel booking analytics platform developed as part of my **BSc (Hons) Computing** project.
 
-The application combines **Python**, **MySQL**, **Machine Learning**, and **Streamlit** to analyse hotel booking data, identify customer behaviour, visualise business trends, and predict booking cancellations.
+The application combines **Python**, **MySQL**, **Machine Learning**, and **Streamlit** to analyse hotel booking data, uncover customer behaviour, visualise business trends, and predict booking cancellations through an interactive dashboard.
 
 ---
 
-# 🛠️ Technologies
+## 🛠️ Technologies
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
@@ -21,134 +21,169 @@ The application combines **Python**, **MySQL**, **Machine Learning**, and **Stre
 
 ---
 
-# 📖 Project Overview
+## 📖 Project Overview
 
-TravelPulse analyses over **119,390 hotel booking records** to help hospitality businesses understand booking trends, customer behaviour and cancellation patterns.
+TravelPulse analyses over **119,390 hotel booking records** to help hospitality businesses understand booking trends, customer behaviour, pricing patterns and booking cancellation risks.
 
-The platform integrates data analytics, business intelligence and machine learning into an interactive dashboard built with Streamlit.
+The platform combines **data analytics**, **business intelligence**, **machine learning**, and **interactive visualisation** into a single Streamlit application.
 
-The project demonstrates practical skills in:
+This project demonstrates practical experience in:
 
 - Python Programming
 - SQL Database Design
-- Data Analytics
-- Data Visualisation
+- Data Cleaning
+- Exploratory Data Analysis
 - Machine Learning
 - Dashboard Development
+- Data Visualisation
 - Business Intelligence
 
 ---
 
-# ✨ Key Features
+## ✨ Key Features
 
-- 📊 Interactive Streamlit Dashboard
-- 🗄️ MySQL Database Integration
-- 📈 Booking Trend Analysis
-- 👥 Customer Behaviour Analysis
-- 🤖 Machine Learning Cancellation Prediction
-- 📊 Feature Importance Visualisation
-- 🔎 Data Explorer
-- 📥 CSV Export
-- 📉 Monthly Booking Trends
-- 📊 Business Intelligence Reporting
+- 📊 Interactive multi-page Streamlit dashboard
+- 🗄️ MySQL database integration
+- 📈 Booking trends and seasonal demand analysis
+- 👥 Customer behaviour analysis
+- 🤖 AI-powered booking cancellation prediction
+- 📊 Feature importance visualisation
+- 🔎 Interactive data explorer
+- 📥 CSV export functionality
+- 📉 Monthly booking trend analysis
+- 📈 Business intelligence reporting
 
 ---
 
-# 🖥️ Dashboard Screens
+## 🖥️ Dashboard Preview
 
-## 📊 Overview Dashboard
+### 📊 Overview Dashboard
 
 <p align="center">
-<img src="screenshots/01_Overview_Dashboard.png" width="95%">
+  <img src="screenshots/01_Overview_Dashboard.png" width="95%">
 </p>
 
 ---
 
-## 📈 Booking Trends
+### 📈 Booking Trends
 
 <p align="center">
-<img src="screenshots/02_Booking_Trends.png" width="95%">
+  <img src="screenshots/02_Booking_Trends.png" width="95%">
 </p>
 
 ---
 
-## 👥 Customer Behaviour
+### 👥 Customer Behaviour
 
 <p align="center">
-<img src="screenshots/03_Customer_Behaviour.png" width="95%">
+  <img src="screenshots/03_Customer_Behaviour.png" width="95%">
 </p>
 
 ---
 
-## 🔎 Data Explorer
+### 🔎 Data Explorer
 
 <p align="center">
-<img src="screenshots/04_Data_Explorer.png" width="95%">
+  <img src="screenshots/04_Data_Explorer.png" width="95%">
 </p>
 
 ---
 
-## 🤖 AI Booking Cancellation Prediction
+### 🤖 AI Prediction Dashboard
 
 <p align="center">
-<img src="screenshots/05_AI_Prediction.png" width="95%">
+  <img src="screenshots/05_AI_Prediction.png" width="95%">
 </p>
 
 ---
 
-## 📊 Feature Importance
+### 📊 Feature Importance
 
 <p align="center">
-<img src="screenshots/06_Feature_Importance.png" width="95%">
+  <img src="screenshots/06_Feature_Importance.png" width="95%">
 </p>
 
 ---
 
-## 📈 Model Performance
+### 📈 Model Performance
 
 <p align="center">
-<img src="screenshots/07_Model_Performance.png" width="95%">
+  <img src="screenshots/07_Model_Performance.png" width="95%">
 </p>
 
 ---
 
-## 📉 Monthly Booking Trends
+### 📉 Monthly Booking Trends
 
 <p align="center">
-<img src="screenshots/08_Monthly_Booking_Trends.png" width="95%">
+  <img src="screenshots/08_Monthly_Booking_Trends.png" width="95%">
 </p>
 
 ---
 
-# 🧠 Machine Learning
+## 🤖 Machine Learning
 
-TravelPulse includes a **Random Forest Classifier** trained to predict hotel booking cancellations.
+TravelPulse uses a **Random Forest Classifier** to predict hotel booking cancellations.
 
-Model Performance:
-
-- Accuracy: **79.87%**
-- Algorithm: Random Forest
-- Train/Test Split: 80/20
-- Label Encoding
-- Feature Importance Analysis
-- Confusion Matrix Evaluation
+| Metric | Value |
+|--------|-------|
+| Algorithm | Random Forest |
+| Dataset | 119,390 hotel bookings |
+| Target Variable | `is_canceled` |
+| Accuracy | **79.87%** |
+| Train/Test Split | 80/20 |
+| Feature Importance | Included |
+| Live Prediction | Yes |
 
 ---
 
-# 🗄️ SQL
+## 🗄️ Database
 
-The project uses MySQL for storing and querying hotel booking data.
+The application uses **MySQL** as its backend database for storing and querying hotel booking records.
 
 Included SQL scripts:
 
-- Create Database
-- Create Tables
-- Import Data
-- Analysis Queries
+- Create database
+- Create tables
+- Import dataset
+- Business analysis queries
 
 ---
 
-# 📂 Project Structure
+## 🛠️ Technology Stack
+
+| Category | Technology |
+|---------|------------|
+| Programming | Python |
+| Database | MySQL |
+| Dashboard | Streamlit |
+| Data Analysis | Pandas, NumPy |
+| Visualisation | Plotly |
+| Machine Learning | Scikit-learn |
+| Notebook | Jupyter |
+| Version Control | Git & GitHub |
+
+---
+
+## 💼 Skills Demonstrated
+
+This project demonstrates experience in:
+
+- Python Development
+- SQL
+- Data Cleaning
+- Exploratory Data Analysis
+- Machine Learning
+- Dashboard Development
+- Data Visualisation
+- Database Design
+- Business Intelligence
+- Git & GitHub
+- Software Documentation
+
+---
+
+## 📂 Project Structure
 
 ```text
 TravelPulse/
@@ -172,32 +207,66 @@ TravelPulse/
 
 ---
 
-# 🚀 Future Improvements
+## 🚀 Installation
 
-- Deploy to Streamlit Cloud
-- Docker Support
-- Power BI Dashboard
-- Azure SQL Integration
-- Microsoft Fabric Integration
-- Forecasting Models
-- User Authentication
-- REST API
+Clone the repository:
+
+```bash
+git clone https://github.com/sezay-rashid/TravelPulse-.git
+```
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+streamlit run app/main/streamlit_app.py
+```
 
 ---
 
-# 👨‍💻 Author
+## 📈 Project Results
 
-## Sezay Rashid
+- ✅ Analysed **119,390** hotel booking records
+- ✅ Developed **5 interactive dashboards**
+- ✅ Built a Random Forest prediction model
+- ✅ Achieved **79.87% prediction accuracy**
+- ✅ Integrated Python with MySQL
+- ✅ Delivered a complete end-to-end analytics platform
+
+---
+
+## 🔮 Future Improvements
+
+- Deploy to Streamlit Community Cloud
+- Microsoft Power BI integration
+- Microsoft Fabric integration
+- Azure SQL Database support
+- Docker containerisation
+- User authentication
+- REST API
+- Real-time hotel booking data
+- Advanced machine learning models
+
+---
+
+## 👨‍💻 Author
+
+### Sezay Rashid
 
 **BSc (Hons) Computing Graduate**
 
-Aspiring Data Analyst • Data Engineer • Python Developer
+**Aspiring Data Analyst | Data Engineer | Python Developer**
 
-📧 Email: *(sezay.rashid.dev@gmail.com)*
+📧 **Email:** sezay.rashid.dev@gmail.com
 
-💼 LinkedIn: *(www.linkedin.com/in/sezay-rashid-dev)*
+💼 **LinkedIn:** [linkedin.com/in/sezay-rashid-dev](https://www.linkedin.com/in/sezay-rashid-dev)
 
-🐙 GitHub: https://github.com/sezay-rashid
+🐙 **GitHub:** [github.com/sezay-rashid](https://github.com/sezay-rashid)
 
 ---
 
@@ -205,4 +274,4 @@ Aspiring Data Analyst • Data Engineer • Python Developer
 
 If you found this project interesting or helpful, please consider giving it a ⭐ on GitHub.
 
-Thank you for visiting the TravelPulse repository!
+Thank you for visiting the **TravelPulse** repository!
