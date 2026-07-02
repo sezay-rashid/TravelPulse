@@ -22,9 +22,6 @@ st.set_page_config(
 )
 
 
-# -------------------------
-# LOAD DATA FROM MYSQL
-# -------------------------
 @st.cache_data
 def load_data():
     conn = mysql.connector.connect(
@@ -42,9 +39,7 @@ def load_data():
 df = load_data()
 
 
-# -------------------------
-# SIDEBAR
-# -------------------------
+
 st.sidebar.title("TravelPulse Navigation")
 
 page = st.sidebar.radio(
@@ -61,9 +56,7 @@ page = st.sidebar.radio(
 st.success("Connected to MySQL successfully!")
 
 
-# -------------------------
-# COMMON VALUES
-# -------------------------
+
 month_order = [
     "January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"
@@ -75,9 +68,7 @@ avg_adr = round(df["adr"].mean(), 2)
 avg_lead_time = int(round(df["lead_time"].mean(), 0))
 
 
-# -------------------------
-# OVERVIEW PAGE
-# -------------------------
+
 if page == "Overview":
     st.title("Booking Overview")
 
@@ -150,9 +141,7 @@ if page == "Overview":
     st.plotly_chart(fig_monthly, use_container_width=True)
 
 
-# -------------------------
-# BOOKING TRENDS PAGE
-# -------------------------
+
 elif page == "Booking Trends":
     st.title("Booking Trends")
 
@@ -253,9 +242,7 @@ elif page == "Booking Trends":
     st.plotly_chart(fig4, use_container_width=True)
 
 
-# -------------------------
-# CUSTOMER BEHAVIOUR PAGE
-# -------------------------
+
 elif page == "Customer Behaviour":
     st.title("Customer Behaviour")
 
@@ -322,9 +309,6 @@ elif page == "Customer Behaviour":
     st.plotly_chart(fig_status, use_container_width=True)
 
 
-# -------------------------
-# DATA EXPLORER PAGE
-# -------------------------
 elif page == "Data Explorer":
     st.title("Data Explorer")
 
@@ -394,9 +378,7 @@ elif page == "Data Explorer":
     )
 
 
-# -------------------------
-# AI PREDICTIONS PAGE
-# -------------------------
+
 elif page == "AI Predictions":
     st.title("AI Booking Cancellation Prediction")
 
