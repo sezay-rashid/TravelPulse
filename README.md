@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="logo.png" alt="TravelPulse logo" width="220">
-</p>
-
 <h2 align="center">
   AI-Powered Hotel Booking Analytics Platform
 </h2>
