@@ -51,7 +51,7 @@ TravelPulse demonstrates the complete analytics workflow:
 <p align="center">
   <img src="./screenshots/travelpulse_dashboard_preview.png"
        alt="TravelPulse analytics dashboard preview"
-       width="900">
+       width="800">
 </p>
 
 The dashboard preview presents the main analytical components of TravelPulse in one visual summary. It includes customer behaviour analysis, monthly booking trends, feature importance, interactive data filtering and AI-powered cancellation prediction.
@@ -81,7 +81,7 @@ The dashboard preview presents the main analytical components of TravelPulse in 
 <p align="center">
   <img src="./screenshots/01_Overview_Dashboard.png"
        alt="TravelPulse overview dashboard"
-       width="75%">
+       width="60%">
 </p>
 
 The Overview Dashboard provides a high-level summary of the hotel booking dataset. Its key performance indicators allow users to quickly understand the size of the dataset, booking activity and cancellation behaviour.
@@ -95,7 +95,7 @@ The charts provide an accessible starting point for the analysis by presenting i
 <p align="center">
   <img src="./screenshots/02_Booking_Trends.png"
        alt="TravelPulse booking trends dashboard"
-       width="75%">
+       width="60%">
 </p>
 
 The Booking Trends dashboard examines how booking demand changes throughout the year. The monthly booking chart compares the number of bookings made for **City Hotels** and **Resort Hotels**, making differences between the two hotel categories visible.
@@ -109,7 +109,7 @@ The visualisation highlights seasonal increases and decreases in demand. These i
 <p align="center">
   <img src="./screenshots/03_Customer_Behaviour.png"
        alt="TravelPulse customer behaviour dashboard"
-       width="75%">
+       width="60%">
 </p>
 
 The Customer Behaviour dashboard explores how customers make their hotel reservations. The market-segment chart compares bookings generated through channels such as online travel agents, offline travel agents, direct bookings, groups and corporate customers.
@@ -125,7 +125,7 @@ Together, these charts help identify the customer groups and booking channels co
 <p align="center">
   <img src="./screenshots/04_Data_Explorer.png"
        alt="TravelPulse interactive data explorer"
-       width="75%">
+       width="60%">
 </p>
 
 The Data Explorer allows users to investigate individual booking records without writing Python or SQL code. Users can filter the dataset by hotel type, arrival year, arrival month and other booking characteristics.
@@ -141,7 +141,7 @@ This feature makes the underlying data accessible to both technical and non-tech
 <p align="center">
   <img src="./screenshots/05_AI_Prediction.png"
        alt="TravelPulse AI cancellation prediction dashboard"
-       width="75%">
+       width="60%">
 </p>
 
 The AI Prediction dashboard uses a trained **Random Forest Classifier** to estimate whether a hotel booking is likely to be cancelled. Users enter relevant booking information, and the model generates a cancellation prediction based on the selected values.
@@ -157,7 +157,7 @@ This functionality demonstrates how machine learning can support proactive decis
 <p align="center">
   <img src="./screenshots/06_Feature_Importance.png"
        alt="TravelPulse machine learning feature importance"
-       width="75%">
+       width="60%">
 </p>
 
 The Feature Importance chart explains which variables have the greatest influence on the Random Forest model’s predictions. Features with longer bars contribute more strongly to the model’s cancellation decisions.
@@ -173,7 +173,7 @@ For example, a long lead time may give customers more opportunity to change thei
 <p align="center">
   <img src="./screenshots/07_Model_Performance.png"
        alt="TravelPulse machine learning model performance"
-       width="75%">
+       width="60%">
 </p>
 
 The Model Performance dashboard evaluates how effectively the trained model predicts hotel booking cancellations. It presents classification results using appropriate performance measures and visual evaluation tools.
@@ -189,7 +189,7 @@ This evaluation helps determine whether the model is reliable enough to provide 
 <p align="center">
   <img src="./screenshots/08_Monthly_Booking_Trends.png"
        alt="TravelPulse monthly booking-volume analysis"
-       width="75%">
+       width="60%">
 </p>
 
 The Monthly Booking Volume chart presents the total number of bookings recorded during each month. The line makes changes in demand easy to follow and highlights periods of growth, peak activity and declining booking volume.
